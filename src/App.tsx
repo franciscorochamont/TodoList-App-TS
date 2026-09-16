@@ -1,10 +1,14 @@
+import Header from "./components/Header"
 
 function App() {
 
   return (
-    <>
-        <h1 className="text-blue-500 text-4xl font-geist">Holaa</h1>
-    </>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="mx-auto w-full max-w-2xl">
+          <Header />
+      </div>
+
+    </div>
   )
 }
 
