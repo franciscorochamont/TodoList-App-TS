@@ -4,7 +4,8 @@ import { ListTodo } from "lucide-react";
 export default function Header() {
 
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex flex-col gap-3 md:flex-row
+        md:items-center md:justify-between">
             <div className="flex gap-2 items-center">
                 <ListTodo className="text-blue-700 "/>
                 <p className="font-geist text-xl text-blue-700">
